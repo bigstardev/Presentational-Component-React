@@ -25,7 +25,7 @@ function App() {
   const { loading, errorMessage, movies, selected } = state
 
   const showIndividualMovie = (id) => {
-
+    console.log(`show individual`)
     movies.map((individual) => {
       if (individual.id === id)
         dispatch({
